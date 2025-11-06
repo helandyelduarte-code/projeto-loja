@@ -1,0 +1,23 @@
+*{
+    background-color: #1a1a1a;
+    padding: 0%;
+    margin: 0%;
+}
+
+#baner{
+    width: 750px;
+    height: 450px; ;
+}
+
+li a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#logo{
+height: 100px;
+width: 100px;
+
+}
