@@ -14,8 +14,15 @@ li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
+    padding: 20px;
 }
-
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none; /**/
+}
 #logo{
 height: 100px;
 width: 100px;
