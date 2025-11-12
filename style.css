@@ -4,7 +4,7 @@
     margin: 0%;
 }
 
-#baner{
+.baner{
     width: 750px;
     height: 450px; ;
 }
@@ -20,8 +20,16 @@ ul{
     display: flex;
     flex-direction: row;
 }
+
 li{
     list-style: none; /**/
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #logo{
 height: 100px;
