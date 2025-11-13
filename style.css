@@ -5,8 +5,13 @@
 }
 
 .baner{
-    width: 750px;
-    height: 450px; ;
+    width: 850px;
+    height: 450px;
+    background-image: url("./assents/Rectangle\ 11.png"); /* Ele adiciona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 li a{
@@ -30,9 +35,15 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
+
 #logo{
 height: 100px;
 width: 100px;
 
+}
+.bi {
+    font-size: 30px;
+    color: #4c5444;
 }
