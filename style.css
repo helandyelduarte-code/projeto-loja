@@ -41,7 +41,7 @@ nav{
     justify-content: space-between;
 }
 
-#logo{
+#logo-caveira{
 height: 100px;
 width: 100px;
 
@@ -62,4 +62,14 @@ width: 100px;
     color: #ffffff;
     font-weight: bold;
     font-size: 14px;
+}
+.txt-btn{
+    width: 210px;
+    background-color: ;
+}
+.section-baner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
