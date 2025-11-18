@@ -52,6 +52,7 @@ width: 100px;
 }
 .texto-banner {
     color: #ffffff;
+
 }
 .btn { 
     height: 35px;
@@ -62,14 +63,61 @@ width: 100px;
     color: #ffffff;
     font-weight: bold;
     font-size: 14px;
+    margin: 20px;
 }
 .txt-btn{
     width: 210px;
-    background-color: ;
+    padding: 30px;
 }
 .section-baner{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+ .titulo{
+
+ color: #ffffff;
+ font-weight: bold;
+ font-size: 35px;
+ padding: 20px;
+}
+.estrutura-titulo{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+.produtos{
+    width: 200px;
+    height: 300px;
+}
+.valor{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+
+   } 
+
+.card{
+    width: 200px ;
+    height: 380px; 
+}
+.card-texto{
+    justify-content: center;
+    display: flex;
+}
+.cores{
+    height: 15px;
+    width:  15px;
+    border-radius: 100%;
+}
+.vermelho{
+background-color: red;
+}
+.azul{
+background-color: blue;
+}
+.amarelo{
+    background-color: yellow;
 }
