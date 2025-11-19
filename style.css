@@ -106,11 +106,14 @@ width: 100px;
 .card-texto{
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .cores{
     height: 15px;
     width:  15px;
     border-radius: 100%;
+    
 }
 .vermelho{
 background-color: red;
@@ -121,3 +124,23 @@ background-color: blue;
 .amarelo{
     background-color: yellow;
 }
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 3px;
+}
+
+.carousel{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+
+
+   
+
